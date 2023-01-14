@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO</title>
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/input.css" />
+    <link rel="stylesheet" href="./css/btn.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/todo.css" />
+
+    <script
+      src="https://kit.fontawesome.com/ce413c49ee.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header id="header">
+      <button>Log Out</button>
+    </header>
+
+    <div class="quote">
+      <span class="message"></span><br />
+      <span class="author"></span>
+    </div>
+
+    <div id="todoContainer">
+      <h2 id="clock">00:00</h2>
+
+      <form class="login-form">
+        <input
+          required
+          maxlength="15"
+          type="text"
+          placeholder="이름이 무엇인가요?"
+        />
+        <button class="custom-btn btn">Log In</button>
+      </form>
+
+      <h1 id="greeting" class="hidden"></h1>
+
+      <form id="todo-form">
+        <input required type="text" placeholder="할일" />
+      </form>
+
+      <ul id="todo-list"></ul>
+    </div>
+
+    <div id="weather">Anyang-si Mist</div>
+
+    <script src="./js/key.js"></script>
+    <script src="./js/greeting.js"></script>
+    <script src="./js/clock.js"></script>
+    <script src="./js/quotes.js"></script>
+    <script src="./js/background.js"></script>
+    <script src="./js/todo.js"></script>
+    <!-- <script src="./js/weather.js"></script> -->
+    <script src="./js/setUp.js"></script>
+  </body>
+</html>
